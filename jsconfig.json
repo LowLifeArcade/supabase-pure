@@ -1,0 +1,11 @@
+/**
+* add the line below to vscode's settings(JSON) to stop error
+* "typescript.tsdk": "./node_modules/typescript/lib",
+*/
+
+{
+  "compilerOptions": {
+    "jsx": "react",
+    "checkJs": true
+  }
+}
