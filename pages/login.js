@@ -9,6 +9,7 @@ const LoginPage = () => {
     await supabase.auth.signIn({ email });
     console.log('submited', email)
   };
+  // test
   return (
     <div>
       <h1>Log In</h1>
